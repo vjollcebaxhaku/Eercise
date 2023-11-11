@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headeri {
+    margin: 0;
+    padding: 1%;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.catalog {
+    color: rgb(90, 164, 190);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 20px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bgfoto {
+    background-image: url(hero.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+
+
+.bgfoto button {
+    height: 25px;
+    width: 40px;
+    background-color: rgb(0, 139, 137);
+    border: 2px;
+
+}
+
+.latestvideo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 10px;
+}
+
+
+.latestvideo h3 {
+    font-size: 20px;
+    color: rgb(23, 139, 131);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.latestvideo p {
+    font-size: 15px;
+    color: rgb(23, 139, 131);
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.latestvideo button {
+    width: 20px;
+    height: 17.5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+
+}
+
+.fotografit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rubrika {
+    flex: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rubrika img {
+    width: 280px;
+    height: auto;
+
+}
+
+
+.views_date {
+    margin:5px 0;
+padding-right: 60px;
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.permifooter {
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.permifooter .previous button {
+    width: 85px;
+    height: 33px;
+    border: none;
+    font-size: 18px;
+
+}
+
+
+.permifooter .numrat .btn {
+    width: 35px;
+    height: 33px;
+    border: none;
+    font-size: 18px;
+
+
+}
+
+
+.permifooter .NextPage .btn_prev_next {
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-size: 15.5px;
+
+}
+
+
+footer {
+    margin: 20px;
+    background-color: rgb(222, 220, 220);
+    color: lightseagreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.f {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footermain p {
+    color: #333;
+}
+
+.footermain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerleft {
+    text-align: left;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.footercenter {
+    text-align: center;
+  
+}
+
+.footerright {
+    text-align: right;
+}
+
+.fundi {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12.5px;
+}
